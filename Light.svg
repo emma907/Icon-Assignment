@@ -1,5 +1,21 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74.2 219.8">
   <title>Light</title>
+
+    <defs>
+     <style>
+      path {
+        animation: change-color;
+        animation-duration: 3s; 
+        animation-iteration-count: infinite; 
+        }
+    @keyframes change-color {
+      to { fill: yellow; }
+      }
+
+    </style> 
+
+  </defs>
+
   <g>
     <polygon points="38.87 136.34 32.2 136.34 15.06 136.34 11.3 136.34 11.3 219.8 59.77 219.8 59.77 136.34 56.01 136.34 38.87 136.34" fill="#004419"/>
     <path d="M121.67,134.33a3.33,3.33,0,1,1,6.67,0v11.42h17.14V59.93L128.67,33.57s-2.33,8.19-24.14,26.36v85.83h17.14Z" transform="translate(-89.46 -9.42)" fill="#2dcddf" opacity="0.5"/>

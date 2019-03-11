@@ -1,5 +1,22 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134.61 127.68">
   <title>hat</title>
+
+  <defs>
+  	 <style>
+	  	path {
+	  		animation: offset 3s linear infinite;
+	  		stroke: black; 
+	  		fill-opacity: 0; 
+	  		stroke-dasharray: 900; 
+	  		stroke-dashoffset: 900; 
+	  		}
+		@keyframes offset {
+			to { stroke-dashoffset: 0; }
+			}
+
+	  </style> 
+
+  </defs>
   <g>
     <path d="M85.63,170a15,15,0,0,1,21.27-.78,15,15,0,0,1,20.84.31A15,15,0,0,1,150.24,171a15,15,0,0,1,19.43-3.87,14.93,14.93,0,0,1,7.51-2c.45,0,.89,0,1.33.07L138.32,95.61,125,118.69a7.86,7.86,0,1,1-7.86,7.86,7.86,7.86,0,0,1,7.86-7.86L111.68,95.61,71.31,165.53A14.91,14.91,0,0,1,85.63,170Z" transform="translate(-58.59 -68.52)" fill="#fa0006" stroke="#ddd" stroke-miterlimit="10" stroke-width="2"/>
     <polygon points="79.73 27.09 53.09 27.09 66.41 50.17 79.73 27.09" fill="#e80006" stroke="#ddd" stroke-miterlimit="10" stroke-width="2"/>
