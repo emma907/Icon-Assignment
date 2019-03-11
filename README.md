@@ -1,5 +1,7 @@
-#Icon-Assignment
-###Emma's Remix of Declan's Icons
+Icon-Assignment
+===============
+Emma's Remix of Declan's Icons
+-------------------------------
 
 Emma forked Declan's icons and animated them each individually. 
 
